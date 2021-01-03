@@ -1,0 +1,46 @@
+.banner{
+    background:url("https://i.pinimg.com/originals/ae/a4/21/aea42169bf7b21fb2dc59cd6390a97d1.jpg") center center;
+    height: 50vh;
+    position:relative;
+}
+
+.banner__info{
+    background-color: black;
+    color:white;
+    padding-top: 25vh;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton{
+    background-color:white!important;
+    font-weight:900!important;
+    text-transform:inherit !important;
+    color:rgb(255, 47, 47)!important;
+}
+
+.banner__info>h1{
+    font-size:65px;
+
+}
+.banner__info>button{
+    background-color:rgb(255, 37, 21);
+    color:white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight:600;
+}
+.banner__info>button:hover{
+    background-color:white;
+    color:rgb(255, 104, 93);
+}
+.banner__info>h5{
+    margin-top:10px;
+}
